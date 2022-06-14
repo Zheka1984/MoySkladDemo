@@ -34,8 +34,6 @@ foreach($expenseitemsValues as $v){
 echo "<br><a href=\"iframe.php\"><img src=\"arrows.png\"  title='обновить страницу'/></a>";
 
 
-echo $comment;
-
 connectToDB();
 insertRow();
 

@@ -2,3 +2,5 @@
 2022-05-03T22:43:39+02:00 [UPDATE-SETTINGS] Update info message: , store: 
 2022-05-09T15:19:39+02:00 [IFRAME] Loaded iframe with contextKey: 
 2022-05-09T15:59:54+02:00 [IFRAME] Loaded iframe with contextKey: 
+2022-06-13T21:20:05+02:00 [APP => MOYSKLAD] Send: GET https://online.moysklad.ru/api/remap/1.2/entity/counterpartyitems
+

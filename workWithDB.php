@@ -14,7 +14,7 @@ try{
 $conn = new PDO($dsn);
 
 if($conn){
-echo "Connected to the <strong>$db</strong> database successfully!";
+//echo "Connected to the <strong>$db</strong> database successfully!";
 }
 }
 catch (PDOException $e){
@@ -91,9 +91,7 @@ function selectAllFromDB(){
     $sql = 'Select * FROM rules';
     $r = $conn->query($sql);
     $rules = $r->fetchAll(PDO::FETCH_ASSOC);
-    foreach ($rules as $rule) {
-        echo $rule['projectname'] . '<br>';
-    }
+  
     return $rules;
 }
 function deleteRow($id){
